@@ -1,0 +1,27 @@
+input[type="button"] {
+  border-radius: 10px;
+  font-family: "EB Garamond", serif;
+  background-color: #ffd588;
+  font-weight: bolder;
+  border-color: #8675a9;
+  border: "2px solid";
+  width: 100%;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+input[type="button"]:hover {
+  background-color: #e9dec9;
+  color: #e1462c;
+  border: 2px solid #5a5f75;
+}
+input[type="text"] {
+  border-radius: 10px;
+  font-size: 28px;
+  border: 2px solid #5a5f75;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #e9dec9;
+}

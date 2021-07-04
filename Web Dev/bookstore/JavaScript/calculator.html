@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../bookstore/Section Pages/section.css" />
+    <link rel="stylesheet" href="../JavaScript/calculator.css" />
+    <script src="../JavaScript/calculator.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <style>
+      .container{
+        border: 2px solid #efc362;
+        margin-left: 500px;
+        margin-right: 200px;
+        display: flexbox;
+        align-self: center;
+      }
+      .container:hover{
+        border: 2px solid #efc362;
+        background-color: #ffc5a3;
+      }
+    </style>
+    <center>
+      <h1>Calculator</h1>
+      <div class="container">
+      <table>
+        <tr>
+          <td>
+            <input
+              type="button"
+              value="C"
+              onclick="clr()"
+              style="padding-left: 20px; padding-right: 20px"
+            />
+          </td>
+          <td colspan="3">
+            <input type="text" id="box" placeholder="Enter the number..." disabled />
+          </td>
+        </tr>
+
+        <tr>
+          <td><input type="button" value="+" onclick="data('+')" /></td>
+          <td><input type="button" value="1" onclick="data('1')" /></td>
+          <td><input type="button" value="2" onclick="data('2')" /></td>
+          <td><input type="button" value="3" onclick="data('3')" /></td>
+        </tr>
+
+        <tr>
+          <td><input type="button" value="-" onclick="data('-')" /></td>
+          <td><input type="button" value="4" onclick="data('4')" /></td>
+          <td><input type="button" value="5" onclick="data('5')" /></td>
+          <td><input type="button" value="6" onclick="data('6')" /></td>
+        </tr>
+
+        <tr>
+          <td><input type="button" value="*" onclick="data('*')" /></td>
+          <td><input type="button" value="7" onclick="data('7')" /></td>
+          <td><input type="button" value="8" onclick="data('8')" /></td>
+          <td><input type="button" value="9" onclick="data('9')" /></td>
+        </tr>
+
+        <tr>
+          <td><input type="button" value="/" onclick="data('/')" /></td>
+          <td><input type="button" value="." onclick="data('.')" /></td>
+          <td><input type="button" value="0" onclick="data('0')" /></td>
+          <td><input type="button" value="=" onclick="calculate()"></td>
+        </tr>
+      </table>
+    </center></div>
+  </body>
+</html>

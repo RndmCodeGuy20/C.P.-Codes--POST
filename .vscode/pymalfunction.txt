@@ -1,0 +1,9 @@
+[
+    {
+      "*.ipynb": "jupyter-notebook"
+    },
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ]

@@ -1,0 +1,36 @@
+{
+    "C_Cpp.errorSquiggles": "EnabledIfIncludesResolve",
+    "files.associations": {
+        "conio.h": "c",
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "math.h": "c"
+    },
+    "cSpell.words": [
+        "Bibliphilia",
+        "CUSTID",
+        "Mainpage",
+        "Vinter",
+        "confpass",
+        "cust",
+        "flexbox",
+        "fname",
+        "ftarget",
+        "lname",
+        "nonfic",
+        "passco",
+        "passcon",
+        "resultp",
+        "scifi",
+        "sourcep",
+        "subfunc",
+        "topbar"
+    ],
+    "jupyter.jupyterServerType": "local",
+    "java.project.sourcePaths": [
+        ""
+    ],
+    "python.formatting.provider": "black",
+    "git.ignoreLimitWarning": true,
+    "python.pythonPath": "C:\\Python39\\python.exe"
+}

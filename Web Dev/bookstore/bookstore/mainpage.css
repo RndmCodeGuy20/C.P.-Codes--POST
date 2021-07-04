@@ -1,0 +1,106 @@
+table,
+tr,
+th {
+  border: 2px solid #efc362;
+  border-collapse: collapse;
+  padding: 10px;
+  background-color: #d1e68d;
+}
+body {
+  background-color: #f4eccf;
+  font-family: "EB Garamond", serif;
+  overflow-x: inherit;
+}
+h1 {
+  padding: 10px;
+  text-align: center;
+  color: #8675a9;
+  letter-spacing: 3px;
+}
+th {
+  font-size: 24px;
+  color: #e1462c;
+}
+marquee {
+  background-color: #657827;
+  color: #e3f89e;
+  font-size: 18px;
+  width: 100%;
+}
+hr {
+  border-top: 2px dotted #5a5f75;
+  border-bottom: 1px solid #5a5f75;
+}
+h1:hover {
+  color: #5a5f75;
+  cursor: default;
+}
+th:hover {
+  color: #8675a9;
+  cursor: default;
+  background-color: #ffc5a3;
+  border: #e5692e;
+}
+.home {
+  font-size: 48px;
+  padding: 10px;
+  text-align: center;
+  color: #8675a9;
+  letter-spacing: 3px;
+  background-color: #ffe78f;
+  margin: 0px;
+}
+.top{
+  margin: 0px;
+}
+
+/* Color Theme Swatches in Hex */
+.little-free-library-1-hex {
+  color: #5a5f75;
+}
+.little-free-library-2-hex {
+  color: #e1462c;
+}
+.little-free-library-3-hex {
+  color: #ffd588;
+}
+.little-free-library-4-hex {
+  color: #e5692e;
+}
+.little-free-library-5-hex {
+  color: #657827;
+}
+
+/* Color Theme Swatches in RGBA */
+.little-free-library-1-rgba {
+  color: rgba(89, 94, 117, 1);
+}
+.little-free-library-2-rgba {
+  color: rgba(225, 70, 43, 1);
+}
+.little-free-library-3-rgba {
+  color: rgba(255, 212, 135, 1);
+}
+.little-free-library-4-rgba {
+  color: rgba(228, 105, 45, 1);
+}
+.little-free-library-5-rgba {
+  color: rgba(100, 119, 38, 1);
+}
+
+/* Color Theme Swatches in HSLA */
+.little-free-library-1-hsla {
+  color: hsla(228, 13, 40, 1);
+}
+.little-free-library-2-hsla {
+  color: hsla(8, 75, 52, 1);
+}
+.little-free-library-3-hsla {
+  color: hsla(38, 100, 76, 1);
+}
+.little-free-library-4-hsla {
+  color: hsla(19, 77, 53, 1);
+}
+.little-free-library-5-hsla {
+  color: hsla(74, 50, 31, 1);
+}

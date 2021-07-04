@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BIbliphilia : The Bookstore</title>
+
+    <link
+      rel="icon"
+      href="https://img.icons8.com/dusk/64/000000/open-book--v2.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../bookstore/mainpage.css" />
+  </head>
+  <body
+    style="
+      background-color: #eea77d;
+      padding: auto;
+      margin: 5px;
+      margin-top: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+    "
+  >
+    <div class="home">
+      <a href="../bookstore/bookstore.html">
+        <img
+          src="https://img.icons8.com/dusk/64/000000/open-book--v2.png"
+          alt="Bibliphilia Logo"
+          title="Go Back to the Mainpage!"
+      /></a>
+      <u>BIBLIPHILIA : The Bookstore.</u>
+    </div>
+    <hr class="top" />
+    <marquee
+      behavior="scroll"
+      direction="left"
+      onmouseover="this.stop()"
+      ;
+      onmouseout="this.start()"
+      ;
+      >We have suspended all our physical delivery services until the respective
+      authorities' further notice!</marquee
+    >
+    <div class="topbar">
+      <a
+        href="../bookstore/Section Pages/signuppage.html"
+        target="mainpage"
+        title="sign-up now"
+      ><button class="Sign-in">Sign-Up</button>
+      </a>
+      <a
+        href="../bookstore/Section Pages/buynow.html"
+        title="Buy Now"
+        target="mainpage"
+      >
+        <button class="buynow">Buy Now</button></a
+      >
+      <a
+        href="../JavaScript/calculator.html"
+        title="Use our Calculator"
+        target="mainpage"
+        ><button class="calculator">Use Calculator</button></a
+      >
+      <a
+        href="../JavaScript/converter.html"
+        title="Use our Converter"
+        target="mainpage"
+        ><button class="converter">Use Converter</button></a
+      >
+    </div>
+    <style>
+      th {
+        border: 2px solid #efc362;
+        border-collapse: collapse;
+        padding: 10px;
+        background-color: #d1e68d;
+        font-family: "EB Garamond", serif;
+      }
+      td {
+        border: 2px solid #efc362;
+        background-color: #e3f89e;
+        font-size: 22px;
+        font-family: "EB Garamond", serif;
+      }
+      marquee {
+        background-color: #ffd588;
+        color: #ff0000;
+        padding: auto;
+        margin: 0px;
+      }
+      iframe {
+        position: relative;
+      }
+      .topbar {
+        background-color: #f4eccf;
+        border-bottom: 2px solid #657827;
+        border-top: 2px solid #657827;
+      }
+      .nav::-webkit-scrollbar {
+        display: none;
+        overflow: hidden;
+      }
+      button {
+        background-color: #e3f89e;
+        color: #333824;
+        padding: 16px;
+        font-family: "EB Garamond", serif;
+        font-weight: bolder;
+        font-size: 24px;
+        width: 200px;
+        margin-left: 10px;
+        border-radius: 7px;
+        border: 2px solid #657827;
+      }
+      button:hover {
+        color: #e1462c;
+        background-color: #e9dec9;
+        text-decoration: underline;
+      }
+      .frame_container {
+        width: 100%;
+      }
+    </style>
+    <script>
+      function myFunction() {
+        var x;
+        x = document.getElementById("Sign-up");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script>
+    <div class="frame_container">
+      <iframe
+        src="../bookstore/navigation.html"
+        frameborder="0"
+        style="width: 19%; height: 1200px"
+        name="nav"
+        class="nav"
+        style="overflow-x: inherit"
+      >
+      </iframe>
+      <iframe
+        src="../bookstore/mainpage.html"
+        frameborder="0"
+        style="width: 80%; height: 1200px"
+        name="mainpage"
+      ></iframe>
+    </div>
+  </body>
+</html>

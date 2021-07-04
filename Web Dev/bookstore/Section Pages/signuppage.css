@@ -1,0 +1,95 @@
+body {
+  font-family: "EB Garamond", serif;
+  background-color: #f4eccf;
+}
+.container {
+  margin: 20px;
+  border-radius: 5px;
+  background-color: #ddf883;
+  padding: 20px;
+}
+
+legend {
+  text-align: left;
+}
+h1 {
+  font-size: xxx-large;
+  background-color: #ffe78f;
+  padding: 10px;
+  text-align: center;
+  color: #8675a9;
+  letter-spacing: 3px;
+  text-decoration: underline;
+}
+h1:hover {
+  color: #5a5f75;
+  cursor: default;
+}
+h2,
+label {
+  background-color: #ffe78f;
+  padding: 10px;
+  text-align: center;
+  color: #8675a9;
+  letter-spacing: 3px;
+  text-decoration: underline;
+}
+h2:hover {
+  color: #5a5f75;
+  cursor: default;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="number"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="submit"],
+input[type="reset"] {
+  font-size: 16px;
+  border: 2px solid #657827;
+  border-radius: 7px;
+  width: 48%;
+  cursor: default;
+  font-weight: bolder;
+  font-size: 24px;
+  font-family: "EB Garamond", serif;
+  background-color: #edfcbe;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  color: #e1462c;
+  background-color: #e9dec9;
+}
+a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #5a5f75;
+}

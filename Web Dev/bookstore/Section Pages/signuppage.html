@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../Section Pages/signuppage.css" />
+    <script src="../Section Pages/validation.js"></script>
+    <title>Sign-Up</title>
+  </head>
+  <body>
+    <div>
+      <a href="../mainpage.html"
+        ><h1>
+          <img
+            src="https://img.icons8.com/dusk/64/000000/open-book--v2.png"
+            alt="Bibliphilia Logo"
+            title="Go Back to the Mainpage!"
+          />
+          Sign-Up Page
+        </h1></a
+      >
+
+      <div class="container">
+        <form
+          onsubmit="return validate()"
+          action="mailto:shantanu.mane.200@protonmail.com?User Data"
+          method="POST"
+          enctype="text/plain"
+          aria-disabled="true"
+        >
+          <fieldset>
+            <legend><h2>Personal Information</h2></legend>
+            <h2>First Name</h2>
+            <input
+              type="text"
+              id="fname"
+              name="first_name"
+              size="20"
+              maxlength="50"
+              placeholder="Enter Your First Name..."
+            />
+            <h2>Last Name</h2>
+            <input
+              type="text"
+              id="lname"
+              name="last_name"
+              size="20"
+              maxlength="20"
+              placeholder="Enter Your Last Name..."
+            />
+            <h2>Number</h2>
+            <input
+              type="number"
+              name="number"
+              id="number"
+              placeholder="Enter Your Phone Number..."
+            />
+            <h2>E-mail</h2>
+            <input
+              type="text"
+              name="E-mail"
+              id="E-mail"
+              placeholder="Enter Your E-mail Address..."
+            />
+            <h2>Customer ID</h2>
+            <input
+              type="text"
+              name="CuID"
+              id="CuID"
+              placeholder="CUSTID-XX(age)-M/F-name"
+            />
+            <h2>Gender</h2>
+            <label for="" style="font-size: 24px">Select Your Gender: </label>
+            <select
+              name="gender"
+              id="selColor"
+              aria-placeholder="Select"
+              required
+            >
+              <option value="">Select</option>
+              <option value="">Male</option>
+              <option value="">Female</option>
+              <option value="">Other</option>
+              <option value="">Not to Specify</option>
+            </select>
+            <fieldset>
+              <legend><h2>Set Password</h2></legend>
+              <h2>Enter Password</h2>
+              <input type="password" value="" name="pass" id="pass" />
+              <h2>Confirm Password</h2>
+              <input type="password" name="confpass" value="" id="passcon" />
+            </fieldset>
+            <span
+              ><input type="submit" value="Submit" onclick="subfunc"
+            /></span>
+            <span><input type="reset" value="Reset" /></span>
+          </fieldset>
+        </form>
+        <div>
+          <a href="../mainpage.html" title="Go to the mainpage!"
+            >Click here to go to the mainpage!!!</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

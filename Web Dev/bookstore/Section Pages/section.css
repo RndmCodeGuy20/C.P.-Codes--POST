@@ -1,0 +1,55 @@
+h1{
+    background-color: #ffe78f;
+    padding: 10px;
+    color: #8675a9;
+    letter-spacing: 3px;
+    font-size: xxx-large;
+    text-align: center;
+    vertical-align: top;
+    font-family: "EB Garamond", serif;
+}
+.higher {
+  font-size: 16px;
+  border: 2px solid #657827;
+  border-radius: 7px;
+  width: 100%;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 24px;
+  font-family: "EB Garamond", serif;
+  color: #333824;
+  background-color: #ffd588;
+  letter-spacing: 7.5px;
+  position: relative;
+}
+button:hover {
+  color: #e1462c;
+  background-color: #e9dec9;
+  cursor: no-drop;
+}
+th:hover {
+  color: #8675a9;
+  cursor: default;
+  background-color: #fdd4bc;
+  border: #efc362;
+  font-size: 20px;
+}
+th {
+  font-size: 18px;
+}
+marquee {
+  background-color: #657827;
+  color: #e3f89e;
+  font-size: 22px;
+  width: 100%;
+}
+body{
+    background-color: #f4eccf;
+}
+.clearfix{
+    margin: 0px;
+}
+h1:hover {
+  color: #5a5f75;
+  cursor: default;
+}

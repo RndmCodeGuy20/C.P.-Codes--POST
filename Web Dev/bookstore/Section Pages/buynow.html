@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buy Now Page</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../Section Pages/buynow.css">
+  </head>
+  <body>
+    <div>
+      <a href="../bookstore/mainpage.html"
+        ><a>
+          <img
+            src="https://img.icons8.com/dusk/64/000000/open-book--v2.png"
+            alt="Bibliphilia Logo"
+            title="Go Back to the Mainpage!"
+          /></a>Buy Books Now!</h1>
+        
+    </div>
+    <div class="container">
+    <form action="mailto:shantanu.mane.200@protonmail.com">
+      <fieldset>
+        <fieldset>
+          <legend><h2>Select The Books You Want to Buy</h2></legend>
+          <h2>Higher Education and Productivity Books</h2>
+          <input type="checkbox" name="H.E.M" id="higher_check" class="larger"/> <label for="hem"> Higher
+          Engineering Mathematics</label> <br />
+          <input type="checkbox" name="enggchem" id="higher_check" class="larger"/><label for=""> A Textbook
+          Of Engineering Chemistry </label><br />
+          <input type="checkbox" name="LetUsC" id="higher_check" class="larger"/><label for=""> Let Us C
+          </label><br />
+          <input
+            type="checkbox"
+            name="ConciseInorganicChemistry"
+            id="higher_check"
+          class="larger"/> <label for="">Concise Inorganic Chemistry</label> <br /><br /><br />
+
+          <h2>History and Archaeology Books</h2>
+          <input type="checkbox" name="Sapiens" id="history_check" class="larger"/><label for=""> Sapiens</label>
+          <br />
+          <input type="checkbox" name="ESV" id="history_check" class="larger"/><label for=""> ESV Archaeology
+          Study Bible </label><br />
+          <input type="checkbox" name="Evil" id="history_check" class="larger"/><label for=""> Evil
+          Archaeology </label><br />
+          <input type="checkbox" name="Art" id="history_check" class="larger"/><label for=""> The Art of War</label>
+          <br /><br /><br />
+
+          <h2>Literature Books</h2>
+          <input type="checkbox" name="PandP" id="literature_check" class="larger"/><label for=""> Pride and
+          Prejudice </label><br />
+          <input type="checkbox" name="ToKill" id="literature_check" class="larger"/><label for=""> To Kill a
+          Mockingbird </label><br />
+          <input type="checkbox" name="TheGreat" id="literature_check" class="larger"/><label for=""> The
+          Great Gatsby</label><br />
+          <input type="checkbox" name="OneHundred" id="literature_check" class="larger"/><label for=""> One
+          Hundred Years of Solitude </label><br /><br /><br />
+
+          <h2>Science-Fiction Books</h2>
+          <input type="checkbox" name="Hitch" id="Sci-fi_check" class="larger"/><label for=""> The
+          Hitchhiker's Guide to the Galaxy</label> <br />
+          <input type="checkbox" name="Time" id="Sci-fi_check" class="larger"/><label for=""> The
+          Time-Machine </label><br />
+          <input type="checkbox" name="Martian" id="Sci-fi_check" class="larger"/><label for=""> The Martian
+          </label><br />
+          <input type="checkbox" name="1984" id="Sci-fi_check" class="larger"/><label for=""> Nineteen Eighty
+          Four </label><br /><br /><br />
+
+          <h2>Non-Fiction Books</h2>
+          <input type="checkbox" name="Brief" id="Non_check" class="larger"/><label for=""> A Brief History
+          of Time </label><br />
+          <input type="checkbox" name="Hyper" id="Non_check" class="larger"/><label for=""> Hyperspace</label><br />
+          <input type="checkbox" name="Death" id="Non_check" class="larger"/><label for=""> Death by Black
+          Hole</label><br />
+          <input type="checkbox" name="man'sguide" id="Non_check" class="larger"/><label for=""> The
+          Intelligent Man's Guide To Science</label> <br /><br /><br />
+
+          <h2>Biography Books</h2>
+          <input type="checkbox" name="Mein" id="biography_check" class="larger"/><label for=""> Mein Kampf</label>
+          <br />
+          <input type="checkbox" name="Land" id="biography_check" class="larger"/><label for=""> A Promised
+          Land</label><br />
+          <input type="checkbox" name="Fire" id="biography_check" class="larger"/><label for=""> Wings of
+          Fire </label><br />
+          <input type="checkbox" name="Jobs" id="biography_check"class="larger" /><label for=""> Steve Jobs:
+          The Ultimate Biography</label><br /><br /><br />
+        </fieldset>
+
+        <fieldset>
+          <legend><h2>Address</h2></legend>
+          <h2>Enter Your Address</h2>
+          <textarea
+            name="address"
+            id="address"
+            cols="70"
+            rows="5"
+            placeholder="Enter Your Address Here..."
+          ></textarea>
+          <h2>Enter Your State</h2>
+          <input type="text" name="state" id="address" maxlength="100" placeholder="Enter your state here..."/>
+          <h2>Enter Your City</h2>
+          <input type="text" name="city" id="address" maxlength="100" placeholder="Enter your city here...">
+          <h2>Enter Your Pin-Code</h2>
+          <input type="number" name="pin" id="address" maxlength="6" placeholder="Enter your Pin-Code Here...">
+        </fieldset>
+        <fieldset>
+          <legend> <h2>Payment Option</h2></legend>
+          <input type="radio" name="cash" id="Payment"><label for=""> Cash On Delivery</label> <br>
+          <input type="radio" name="Debit" id="Payment"><label for=""> Debit Card </label><br>
+          <input type="radio" name="credit" id="Payment"><label for=""> Credit Card</label><br>
+          <input type="radio" name="credpoint" id="Payment"><label for=""> Credit Points</label><br><br><br>
+        </fieldset>
+        <span><input type="submit" value="Submit" title="Submit this information to our mail ID and we will dispatch them as soon as deliveries start!!!"/></span>
+          <span><input type="reset" value="Reset" /></span>
+      </fieldset>
+    </form><a href="../bookstore/Section Pages/order.html" target="_blank" title="Buy these books now">
+    <button class="Order">Buy Books Now!</button></a>
+    </div>
+  </body>
+</html>

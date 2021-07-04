@@ -1,0 +1,25 @@
+
+For student 1:
+Name: Shantanu
+Roll number: 85
+Fees Paid: 159000.000000
+
+For student 2:
+Name: Abhilash
+Roll number: 69
+Fees Paid: 83012.000000
+
+For student 3:
+Name: Guri
+Roll number: 92
+Fees Paid: 93847.000000
+
+For student 4:
+Name: Rijiju
+Roll number: 23
+Fees Paid: 38293.000000
+
+For student 5:
+Name: dhairya
+Roll number: 39
+Fees Paid: 39287.000000

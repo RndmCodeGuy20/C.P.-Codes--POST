@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../JavaScript/converter.css">
+<script src="../JavaScript/converter.js">
+</script>
+<link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+     <link rel="stylesheet" href="../bookstore/Section Pages/section.css" />
+     <title>Converter</title>
+</head>
+<body>
+    <style>
+      .container{
+        border: 2px solid #efc362;
+        margin-left: 500px;
+        margin-right: 200px;
+        display: flexbox;
+        align-self: center;
+      }
+      .container:hover{
+        border: 2px solid #efc362;
+        background-color: #ffc5a3;
+      }
+    </style>
+<center>
+<h1>Converter</h1>
+<div class="container">
+<table>
+<tr>
+<td><input type="button" value="&#8377" onclick="clr()" /></td>
+<td colspan="3"><input type="text" id="rupee" placeholder="Enter value in Rupees..." /></td>
+</tr>
+
+<tr>
+<td><input type="button" value="&#36" onclick="calculate('1')" style="padding-left:20px;padding-right:20px"/></td>
+<td colspan="3"><input type="text" id="dollar" placeholder="Converted amount in US Dollars..." /></td>
+</tr>
+
+<tr>
+<td><input type="button" value="&#163" onclick="calculate('2')" style="padding-left:20px;padding-right:20px"/></td>
+<td colspan="3"><input type="text" id="pounds" placeholder="Converted amount in Pounds Sterling..." /></td>
+</tr>
+
+</table>
+</div>
+</center>
+
+
+</body>
+</html>

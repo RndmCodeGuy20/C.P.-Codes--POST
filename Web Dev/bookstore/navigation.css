@@ -1,0 +1,39 @@
+.higher,
+.history,
+.literature,
+.scifi,
+.nonfic,
+.biog,
+.AVinter,
+.index {
+  font-size: 16px;
+  border: 2px solid #657827;
+  border-radius: 7px;
+  width: 95%;
+  cursor: default;
+  font-weight: bolder;
+  font-size: 24px;
+  font-family: "EB Garamond", serif;
+}
+button:hover {
+  color: #e1462c;
+  background-color: #e9dec9;
+}
+body {
+  background-color: rgba(244, 236, 207, 1);
+  font-family: "EB Garamond", serif;
+}
+p {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+button {
+  margin: 10px;
+  padding: 20px;
+  background-color: #e3f89e;
+  color: #333824;
+}
+.full{
+  overflow: hidden;
+}

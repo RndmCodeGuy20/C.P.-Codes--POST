@@ -1,0 +1,30 @@
+.slide{
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.text {
+    position: absolute;
+    color: white;
+}
+.prev, .next{
+    color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.next{
+    color: black;
+    right: 0;
+}
+.slide{
+    display: none;
+
+}
+.slide:nth-child(1){
+    display: flex;
+}
