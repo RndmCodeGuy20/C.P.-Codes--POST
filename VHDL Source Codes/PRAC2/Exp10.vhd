@@ -12,4 +12,4 @@ architecture bev of Exp10 is
 begin
     LHS <= (A or B) and (C or D);
     RHS <= not(not(A or B) or not(C or D));
-end architecture ; -- bev
+end bev ; -- bev
