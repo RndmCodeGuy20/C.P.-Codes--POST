@@ -16,8 +16,9 @@ int main()
     return 0;
 }
 
-long numcomp(long *n1,long *n2){
-    
+long numcomp(long *n1, long *n2)
+{
+
     long max;
     if (*n1 > *n2)
     {
@@ -27,6 +28,6 @@ long numcomp(long *n1,long *n2){
     {
         max = *n2;
     }
-    
+
     return max;
 }

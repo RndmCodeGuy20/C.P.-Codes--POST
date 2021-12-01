@@ -14,9 +14,9 @@ int main()
     fx = 300.600006;
     cht = 'z';
 
-    ptr1=&m;
-    ptr2=&fx;
-    ptr3=&cht;
+    ptr1 = &m;
+    ptr2 = &fx;
+    ptr3 = &cht;
 
     printf("\nAddress of m: %d", &m);
     printf("\nAddress of fx: %d", &fx);
